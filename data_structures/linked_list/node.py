@@ -2,12 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
-from typing import Optional, Union, Any
+from typing import Optional, Any
 
 import zope.interface  # type: ignore
 
-
-Key = Union[int, float, str, bool]
+from .types import Key
 
 
 class INode(zope.interface.Interface):
